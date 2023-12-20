@@ -1,0 +1,31 @@
+.Division {
+    background-color: aqua;
+    color: blue;
+    height: 50%;
+    width: 40%;
+    margin: 20px;
+    border: 2px solid red;
+    text-align: center;
+}
+.h{
+    background-color: aqua;
+    color: blue;
+    height: 50%;
+    width: 40%;
+    margin: 20px;
+    border: 2px solid red;
+    text-align: center;
+}
+.a {
+    height: 50%;
+    width: 80%;
+    border: 5px solid black ;
+    display:inline-block;
+    justify-content: center ;
+    
+}
+hr{
+   margin-right:50%;
+    width: 100%;
+
+}

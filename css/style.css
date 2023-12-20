@@ -1,0 +1,369 @@
+.header{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    visibility: hidden;
+}
+a.nav-link .active{
+    font-size: 15px;
+}
+.navbar-light .navbar-nav .nav-link .active .navbar-light .navbar-nav .show .nav-link{
+    color: #2191d0;
+}
+a.nav-link.actives{
+    font-size: 15px;
+    color: white!important;
+    background-color: #2191d0;
+    width: 100px;
+    height: 47px;
+    border-radius: 11px;
+    text-align: center;
+}
+a.nav-link.active{
+    padding-left: 46px!important;
+}
+.btn{
+    display: inline-block;
+    padding: 0.9rem;
+    color: #21d03e;
+    background-color: azure;
+    border-radius: 16px;
+    transition: 0.3s;
+
+}
+.btn:hover{
+    background-color: #4721d0;
+    transform: scale(1);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(5, 16, 44, .15);
+    resize: vertical;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    height: 100vh;
+    overflow-x: hidden;
+    /* position: relative;
+} */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box {
+    background-color: #fff;
+    border: 2px solid  rgb(45, 57, 236);
+    border-radius: 15px;
+    /* width: 200px;
+    height: 120px; */
+    /* padding: 5px; */
+    margin-top: 40px;
+    /* margin-left: 550px; */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.box button {
+    /* width: 200px; */
+    /* margin-top: 0px; */
+    margin-bottom: 0px;
+    background-color:  rgb(45, 57, 236);
+    color: white;
+    font-weight: bold;
+    border-width: 0px;
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    
+   
+
+}
+
+.box img {
+    margin: 5px;
+    width: 200px;
+    height: 70px;
+    display: flex;
+    text-align: center;
+    
+}
+
+.box:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    color: #fff;
+}
+
+.box button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    color: #fff;
+    background-color: #d0212a;
+}
+/* .content{
+    flex-direction: ;
+} */
+
+.box1 {
+    background-color: #fff;
+    border: 2px solid  rgb(45, 57, 236);
+    border-radius: 15px;
+    /* width: 200px;
+    height: 120px; */
+    /* padding: 5px; */
+    margin-top: 40px;
+    /* margin-left: 550px; */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.box1 button {
+    /* width: 200px; */
+    /* margin-top: 0px; */
+    margin-bottom: 0px;
+    background-color:  rgb(45, 57, 236);
+    color: white;
+    font-weight: bold;
+    border-width: 0px;
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+
+}
+
+.box1 img {
+    margin: 5px;
+    width: 200px;
+    height: 70px;
+    display: flex;
+    text-align: center;
+}
+
+.box1:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    color: #fff;
+}
+
+.box1 button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    color: #fff;
+    background-color: #d0212a;
+}
+
+.a {
+    flex-direction: row;
+    display: flex;
+
+}
+
+.box2 {
+    background-color: #fff;
+    border: 2px solid  rgb(45, 57, 236);
+    border-radius: 15px;
+    /* width: 200px;
+    height: 120px; */
+    /* padding: 5px; */
+    margin-top: 40px;
+    /* margin-left: 550px; */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 30px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.box2 button {
+    /* width: 200px; */
+    /* margin-top: 0px; */
+    margin-bottom: 0px;
+    background-color:  rgb(45, 57, 236);
+    color: white;
+    font-weight: bold;
+    border-width: 0px;
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+
+}
+
+.box2 img {
+    margin: 5px;
+    width: 200px;
+    height: 70px;
+    display: flex;
+    text-align: center;
+}
+
+.box2:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    color: #fff;
+}
+
+.box2 button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    color: #fff;
+    background-color: #d0212a;
+}
+
+.b {
+    display: flex;
+    flex-direction: row;
+}
+
+.box3 {
+    background-color: #fff;
+    border: 2px solid  rgb(45, 57, 236);
+    border-radius: 15px;
+    /* width: 200px;
+    height: 120px; */
+    /* padding: 5px; */
+    margin-top: 40px;
+    /* margin-left: 550px; */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.box3 button {
+    /* width: 200px; */
+    /* margin-top: 0px; */
+    margin-bottom: 0px;
+    background-color: rgb(45, 57, 236);
+    color: white;
+    font-weight: bold;
+    border-width: 0px;
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+
+}
+
+.box3 img {
+    margin: 5px;
+    width: 200px;
+    height: 70px;
+    display: flex;
+    text-align: center;
+}
+
+.box3:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    color: #fff;
+}
+
+.box3 button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    color: #fff;
+    background-color: #d0212a;
+}
+
+.c {
+    display: flex;
+    flex-direction: row;
+}
+
+footer p {
+    color: red;
+    text-align: center;
+}
+
+
+
+
+
+
+@media screen and (max-width:998px) {
+    .c {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+    .box3 {
+        width: 212px;
+        height: 110px;
+
+
+    }
+  
+    .a {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .box1 {
+        width: 212px;
+        height: 110px;
+
+
+    }
+
+    .b {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .box2 {
+        width: 212px;
+        height: 110px;
+
+
+    }
+
+    .c {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .box3 {
+        width: 212px;
+        height: 110px;
+
+
+    }
+    
+  
+    
+   
+
+   
+
+
+}
